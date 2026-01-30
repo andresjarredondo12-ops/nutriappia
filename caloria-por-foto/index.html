@@ -1,0 +1,25 @@
+<!-- Archivo: index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="admin-panel">
+        <h1>Panel de Administración</h1>
+        <p>Bienvenido, superadministrador. Ingresa el correo electrónico del usuario al que deseas otorgar acceso Premium de por vida.</p>
+        
+        <div class="form-container">
+            <input type="email" id="email-input" placeholder="correo@ejemplo.com">
+            <button id="grant-button">Otorgar Premium</button>
+        </div>
+        
+        <div id="status-message"></div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
